@@ -1,3 +1,14 @@
+IMPORTANT!!!!
+To play the game normally with the AI (not run any test scenarios) run the following command:
+
+py maxConnect4.py interactive .\input1.txt computer-next 5
+
+interactive is human vs AI, 
+input 1 is a blank board,
+you could either input computer-next or human-next to determine who goes first,
+The final argument/number at the end is the number of moves that the AI will look ahead. 
+Note: 4-5 is a good number, because of how the minimax algorithm works, even with alpha beta pruning the number of scenarios that the AI has to account for grows exponentially. 8-9 moves ahead will take 5-10 seconds to calculate a move so I reccoment going with 4-5 which will almost instantly pick a move. 
+
 Project 2
 Matty Armendariz
 Python 3.10.1
