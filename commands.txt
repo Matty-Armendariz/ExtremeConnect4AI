@@ -1,0 +1,146 @@
+Project 2
+
+Currently I have my python to where you can run it by calling py on the command line. I know sometimes people have to type in python or even python3 so you may need to try that if you cannot run it.
+
+I am unsure if I am supposed to put the file output or the terminal output that I made so I am putting the terminal output, but the file output is the same, it is just stores to the appropriate file as stated in the instructions as well as adds who should be the current player.
+
+[*] py maxConnect4.py interactive .\input1.txt computer-next 5
+
+just play around with the AI at this point and you will tell that it works
+
+# will always choose the middle when first because it evaluates that that is the best move
+[1]  py maxConnect4.py interactive .\input1.txt computer-next 5  
+
+Computer's Turn
+| 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+ ---------------------------
+
+Human Turn
+| 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 0 | 0 | 0 | 1 | 0 | 0 | 0 |
+ ---------------------------
+         Score: 0-0
+         (red first)
+
+Player, please choose your next move
+Please Choose Column:
+
+
+[2] py maxConnect4.py interactive .\input2.txt computer-next 5                             
+
+Computer's Turn
+| 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 0 | 2 | 0 | 0 | 0 | 0 | 0 |
+| 0 | 1 | 0 | 0 | 0 | 0 | 2 |
+| 0 | 2 | 0 | 0 | 1 | 1 | 1 |
+| 1 | 1 | 0 | 0 | 2 | 2 | 2 |
+ ---------------------------
+
+Human Turn
+| 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 0 | 2 | 0 | 0 | 0 | 0 | 0 |
+| 0 | 1 | 0 | 0 | 0 | 0 | 2 |
+| 0 | 2 | 0 | 0 | 1 | 1 | 1 |
+| 1 | 1 | 1 | 0 | 2 | 2 | 2 |
+ ---------------------------
+         Score: 0-0
+         (red first)
+
+Player, please choose your next move
+Please Choose Column:
+
+# Works with human first AND not the same amount of pieces on the board and evaluates correctly!
+[3]  py maxConnect4.py interactive .\input3.txt human-next 6                               
+
+Human Turn
+| 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 1 | 0 | 0 | 0 | 0 | 1 | 2 |
+| 1 | 0 | 0 | 0 | 0 | 1 | 2 |
+| 1 | 0 | 0 | 0 | 0 | 1 | 2 |
+| 1 | 1 | 1 | 1 | 0 | 1 | 2 |
+ ---------------------------
+         Score: 3-1
+         (red first)
+
+Player, please choose your next move
+Please Choose Column: 7
+
+Computer's Turn
+| 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 0 | 0 | 0 | 0 | 0 | 0 | 1 |
+| 1 | 0 | 0 | 0 | 0 | 1 | 2 |
+| 1 | 0 | 0 | 0 | 0 | 1 | 2 |
+| 1 | 0 | 0 | 0 | 0 | 1 | 2 |
+| 1 | 1 | 1 | 1 | 0 | 1 | 2 |
+ ---------------------------
+
+Human Turn
+| 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 0 | 0 | 0 | 0 | 0 | 0 | 1 |
+| 1 | 0 | 0 | 0 | 0 | 1 | 2 |
+| 1 | 0 | 0 | 0 | 0 | 1 | 2 |
+| 1 | 0 | 0 | 2 | 0 | 1 | 2 |
+| 1 | 1 | 1 | 1 | 0 | 1 | 2 |
+ ---------------------------
+         Score: 3-1
+         (red first)
+
+Player, please choose your next move
+Please Choose Column:
+
+[4] py maxConnect4.py one-move input2.txt green_next.txt 5   
+
+Current Board
+| 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 0 | 2 | 0 | 0 | 0 | 0 | 0 |
+| 0 | 1 | 0 | 0 | 0 | 0 | 2 |
+| 0 | 2 | 0 | 0 | 1 | 1 | 1 |
+| 1 | 1 | 0 | 0 | 2 | 2 | 2 |
+ ---------------------------
+.
+.
+.
+Board After Move
+| 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 0 | 2 | 0 | 0 | 0 | 0 | 0 |
+| 0 | 1 | 0 | 0 | 0 | 0 | 2 |
+| 0 | 2 | 0 | 0 | 1 | 1 | 1 |
+| 1 | 1 | 1 | 0 | 2 | 2 | 2 |
+ ---------------------------
+
+# This one takes a while to load because depth is 7 !!!
+[5] py maxConnect4.py one-move input3.txt red_next.txt 7      
+
+Current Board
+| 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 1 | 0 | 0 | 0 | 0 | 1 | 2 |
+| 1 | 0 | 0 | 0 | 0 | 1 | 2 |
+| 1 | 0 | 0 | 0 | 0 | 1 | 2 |
+| 1 | 1 | 1 | 1 | 0 | 1 | 2 |
+ ---------------------------
+.
+.
+.
+Board After Move
+| 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 1 | 0 | 0 | 0 | 0 | 1 | 2 |
+| 1 | 0 | 0 | 0 | 0 | 1 | 2 |
+| 1 | 0 | 0 | 0 | 0 | 1 | 2 |
+| 1 | 1 | 1 | 1 | 1 | 1 | 2 |
+ ---------------------------
